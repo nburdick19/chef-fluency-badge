@@ -3,8 +3,8 @@ file 'default www' do
 	content 'Hello there, you cheeky blitter!'
 end
 
-webnotes = search('node', 'role:web')
+webnodes = search('node', 'role:web')
 
-webnods.each do |node|
+webnodes.each do |node|
 	puts node
 end
